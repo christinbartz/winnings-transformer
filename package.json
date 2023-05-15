@@ -1,0 +1,14 @@
+{
+  "name": "winnings-transformer",
+  "version": "1.0.0",
+  "description": "Ein Transformer für die Ergebnisse der Sonderauslosungen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christin Bartz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
