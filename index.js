@@ -38,7 +38,7 @@ const writeFinalJson = () => {
   });
 
   fs.writeFile(
-    "dist/output.json",
+    "dist/sonderauslosung-bundle.json",
     JSON.stringify(transformedJson),
     function (err) {
       if (err) {
