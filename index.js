@@ -15,10 +15,7 @@ const transform = rawData => {
       : null;
     return {
       id: id,
-      quittungsnummer: data.Quittungsnummer || null,
       preis: data.Preis,
-      gewinnabholung: data["Gewinnabholung bis"],
-      bundesland: data["Lotterieunternehmen/Bundesland"],
     };
   });
 
@@ -38,7 +35,7 @@ const writeFinalJson = () => {
   });
 
   fs.writeFile(
-    "dist/sonderauslosung-bundle.json",
+    "dist/winner-2023-spring-winnings-check.json",
     JSON.stringify(transformedJson),
     function (err) {
       if (err) {
